@@ -6,7 +6,7 @@ public:
     vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries){
             vector<vector<bool>>isPrerequisite(numCourses, vector<bool>(numCourses, false));
             for(const auto& p : prerequisites){
-                isPrerequisite[p[0]][p[1]] = true;
+                isPrerequisite[p[0]][p[1]] = true   ;
             }
             for(int i = 0 ; i < numCourses ; i++){
                 for(int j = 0 ; j < numCourses ; j++){
