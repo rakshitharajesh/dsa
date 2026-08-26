@@ -1,3 +1,6 @@
+import java.util.List;
+
+
 class Solution {
     public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
         int[] sus = new int[n];
