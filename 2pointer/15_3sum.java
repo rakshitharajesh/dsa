@@ -1,5 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
+import java.util.*;
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
