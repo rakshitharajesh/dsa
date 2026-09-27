@@ -1,4 +1,8 @@
+import java.util.HashSet;
+import java.util.Queue;
+import java.util.ArrayDeque;
 class Solution {
+
     public int openLock(String[] deadends, String target) {
         if(target.equals("0000"))
             return 0;
