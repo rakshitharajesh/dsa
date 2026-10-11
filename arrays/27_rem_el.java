@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
 class Solution {
     public int removeElement(int[] nums, int val) {
         int k = 0; // position where the next non-val value needs to be 
